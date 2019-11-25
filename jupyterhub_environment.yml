@@ -2,33 +2,27 @@ name: base
 
 channels:
   - conda-forge
-  - bioconda
   - defaults
 
 dependencies:
-  - python=3.7
-  - numpy >=1.14
-  - xarray >=0.10.8
-  - pandas >=0.22.0
-  - cartopy >=0.16.0
+  - python
+  - numpy
+  - xarray
+  - pandas
+  - cartopy
   - matplotlib 
-  - seaborn >=0.8.1
-  - geopy >=1.17.0
+  - seaborn
+  - geopy
   - basemap
   - netcdf4
   - cis
   - bokeh
   - metpy
-  - jupyter
-  - ipykernel
-  - notebook >=5.6.0
   - scipy
   - scikit-learn
-  - jupyterlab
   - nc-time-axis
   - PyTables
   - xlrd
-  - memory_profiler
   - plotly
   - ipyleaflet
   - rasterio
@@ -41,10 +35,6 @@ dependencies:
   - nodejs
   - pythreejs
   - bqplot
-  - psyplot
-  - psy-maps 
-  - psyplot-gui 
-  - psy-reg 
   - cdsapi 
   - folium
   - basemap-data-hires
@@ -55,9 +45,7 @@ dependencies:
   - nco
   - jupytext
   - pydap
-  - rise
   - papermill
-  - plotnine
   - geonum
   - pip:
       - dask_labextension
