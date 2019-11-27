@@ -18,7 +18,6 @@ RUN /opt/conda/bin/jupyter labextension install @jupyter-widgets/jupyterlab-side
 RUN /opt/conda/bin/jupyter serverextension enable jupytext
 RUN /opt/conda/bin/jupyter nbextension install --py jupytext
 RUN /opt/conda/bin/jupyter nbextension enable --py jupytext
-RUN git clone -b v081dev https://github.com/metno/pyaerocom.git && cd pyaerocom && /opt/conda/bin/python setup.py install
 
 # fix permission problems (hub is then failing)
 RUN fix-permissions $HOME

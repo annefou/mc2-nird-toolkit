@@ -6,14 +6,13 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.7
-  - numpy >=1.14
-  - xarray >=0.10.8
-  - pandas >=0.22.0
-  - cartopy >=0.16.0
+  - numpy 
+  - xarray 
+  - pandas 
+  - cartopy 
   - matplotlib 
-  - seaborn >=0.8.1
-  - geopy >=1.17.0
+  - seaborn 
+  - geopy 
   - basemap
   - netcdf4
   - cis
@@ -57,8 +56,9 @@ dependencies:
   - pydap
   - rise
   - papermill
-  - plotnine
   - geonum
+  - pip
+  - pyaerocom
   - pip:
       - dask_labextension
       - ipydatawidgets
